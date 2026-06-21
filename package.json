@@ -4,7 +4,9 @@
   "private": true,
   "type": "module",
   "description": "CMD//SIGNAL — AI job-search command center (auth + per-user profiles + résumé + hiring-signal intelligence).",
-  "engines": { "node": ">=18" },
+  "engines": {
+  "node": "22.x"
+},
   "scripts": {
     "start": "node server.js",
     "dev": "node --watch server.js"
